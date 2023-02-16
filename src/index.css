@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(100 116 139);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+nav {
+  padding: 10px;
+  background-color: rgb(148 163 184);
+  font-size: 1.8rem;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  text-decoration-line: none;
+}
+
+h1 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+.lk {
+  background-color: transparent;
+  text-decoration-line: none;
+  cursor: pointer;
+}
+
+.lk:hover {
+  background-color: rgb(226 232 240);
+  font-size: 2rem;
+}
+
+.spanerro {
+  font-size: 2.5rem;
+  color: rgb(88 28 135);
+  padding-top: 30px;
+}
+.h1erro {
+  font-size: 3.75rem;
+  color: rgb(249 115 22);
+  font-weight: 900;
+  padding: 20px;
+}
+.h3erro {
+  font-size: 2.2rem;
+  color: rgb(251 113 133);
+  font-weight: 700;
+}
+
+.erro {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+.erroimg {
+  max-width: 225px;
+  display: block;
+}
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.heropage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.heroplanet {
+  padding-top: 30px;
+  width: 530px;
+}
+.h1hero {
+  font-weight: 700;
+  color: rgb(76 29 149);
+  padding-top: 25px;
+}
+.h2hero {
+  font-weight: 500;
+  color: rgb(86, 235, 86);
+  padding-top: 18px;
+}
+.phero {
+  font-weight: 400;
+  color: rgb(236, 238, 122);
+  padding-top: 12px;
+  font-size: 1.875rem;
+}
+.planets {
+  padding-top: 30px;
+  width: 450px;
+}
+.nearestpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ulnearest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.litext {
+  padding-left: 80px;
+  list-style: none;
+}
+.teegardenimg {
+  padding: 30px;
+  height: 400px;
+}
+
+.h3text {
+  padding-top: 25px;
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: rgb(231, 240, 184);
+}
+.ptext {
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #fff;
+}
